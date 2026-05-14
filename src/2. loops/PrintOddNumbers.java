@@ -10,7 +10,7 @@ public class PrintOddNumbers {
         System.out.println();
         int i = 0;
         while (i < numbers.length) {
-            if (numbers[i] % 2 != 0) {
+            if (numbers[i] % 2 == 1) {
                 System.out.print(numbers[i] + " ");
             }
             i++;
