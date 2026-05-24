@@ -1,16 +1,18 @@
-# dsa-basics-to-advanced
+# DSA-basics-to-advanced
 
 A comprehensive collection of Data Structures and Algorithms problems, starting from basic conditional logic to array manipulation techniques.
 
-## Project Structure
+# Project Structure
 
-### 1. if-else
+## 1. if-else
 
 **CheckEvenOdd.java**
 - *Question:* Create a function to check whether a number is even or odd.
 - Demonstrates basic conditional logic using if-else statements to determine number parity.
 
-### 2. loops
+## 2. loops
+
+### Level 1
 
 **PrintEvenNumbers.java**
 - *Question:* Find and print all even numbers from an array.
@@ -19,6 +21,8 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 **PrintOddNumbers.java**
 - *Question:* Find and print all odd numbers from an array.
 - Demonstrates different loop approaches (for and while loops) to filter odd elements.
+
+### Level 2
 
 **ArrayElementSearch.java**
 - *Question:* Write a function to search for an element in an array and return its index. If the element is not found, return -1.
@@ -36,6 +40,126 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 - *Question:* Write a function to find and return the smallest element in an array.
 - Finds the minimum value by comparing array elements.
 
+### Level 3
+
 **FindSecondLargest.java**
 - *Question:* Write a function to find and return the second largest element in an array.
 - Tracks both the largest and second largest elements in a single pass.
+
+## 3. loop-in-loop
+
+### Pattern1.java
+- *Question:* Write a program to print an n x n square pattern of stars.
+- Demonstrates nested loops for creating 2D patterns.
+- Example Output (n=4):
+
+  ```
+  * * * *
+  * * * *
+  * * * *
+  * * * *
+  ```
+
+### Pattern2.java
+- *Question:* Write a program to print a right-angled triangle of stars where each row contains an increasing number of stars.
+- Shows variable inner loop bounds to create progressive patterns.
+- Example Output (n=5):
+
+  ```
+  *
+  * *
+  * * *
+  * * * *
+  * * * * *
+  ```
+
+### Pattern3.java
+- *Question:* Write a program to print a right-angled triangle of numbers where each row contains numbers from 1 to the row number.
+- Demonstrates nested loops with dynamic value printing instead of static symbols.
+- Example Output (n=5):
+
+  ```
+  1
+  1 2
+  1 2 3
+  1 2 3 4
+  1 2 3 4 5
+  ```
+
+### Pattern4.java
+- *Question:* Write a program to print a right-angled triangle of numbers where each row contains the row number repeated.
+- Shows nested loops with repeated values based on row position.
+- Example Output (n=5):
+
+  ```
+  1
+  2 2
+  3 3 3
+  4 4 4 4
+  5 5 5 5 5
+  ```
+
+### Pattern5.java
+- *Question:* Write a program to print an inverted right-angled triangle of numbers where each row contains decreasing count of numbers from 1.
+- Demonstrates reverse iteration pattern with decreasing inner loop bounds.
+- Example Output (n=5):
+
+  ```
+  1 2 3 4 5
+  1 2 3 4
+  1 2 3
+  1 2
+  1
+  ```
+
+### Pattern6.java
+- *Question:* Write a program to print an inverted right-angled triangle of stars where each row contains a decreasing number of stars.
+- Shows reverse iteration with nested loops creating an inverted pattern.
+- Example Output (n=5):
+
+  ```
+  * * * * *
+  * * * *
+  * * *
+  * *
+  *
+  ```
+
+### Pattern7.java
+- *Question:* Write a program to print a centered pyramid using spaces and stars.
+- Demonstrates nested loops with spacing to create a centered right-aligned triangle.
+- Example Output (n=5):
+
+  ```
+          *
+        * *
+      * * *
+    * * * *
+  * * * * *
+  ```
+
+### Pattern8.java
+- *Question:* Write a program to print a binary alternating pattern (1 and 0) where each row contains increasing count.
+- Shows nested loops with conditional logic to alternate between two values.
+- Example Output (n=5):
+
+  ```
+  1
+  1 0
+  1 0 1
+  1 0 1 0
+  1 0 1 0 1
+  ```
+
+### Pattern9.java
+- *Question:* Write a program to print a binary pattern where 0 and 1 toggle throughout the entire output.
+- Demonstrates state management across loops to create a continuous toggle pattern.
+- Example Output (n=5):
+
+  ```
+  1
+  0 1
+  0 1 0
+  1 0 1 0
+  1 0 1 0 1
+  ```
