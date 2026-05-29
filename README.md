@@ -175,3 +175,13 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 1. When the number is 0: Returns 1, as 0 is considered a single digit.
 2. Handling negative numbers: Converts negative numbers to their absolute value before counting digits, so -298 has 3 digits (same as 298).
 
+## 5. Palindrome Number
+
+### PalindromeNumber.java
+- *Question:* Write a function to check whether a number is a palindrome. A palindrome number reads the same forward and backward.
+- Reverses the number by extracting digits one by one using modulo and division operations, then compares it with the original number.
+- Provides both a void method for printing results and a boolean method for returning the palindrome check result.
+
+### Edge Cases:
+1. **Single digit numbers**: Any single digit (0-9) is considered a palindrome.
+2. **Negative numbers**: Negative numbers are typically considered non-palindromes as the sign differs when reversed (e.g., -121 reversed reads as 121-).
