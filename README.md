@@ -163,3 +163,15 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
   1 0 1 0
   1 0 1 0 1
   ```
+
+## 4. Count Digit
+
+### CountDigit.java
+- *Question:* Write a function that returns the count of digits in a number.
+- Counts the total number of digits present in an integer using division operations in a loop.
+- Uses the mathematical approach of repeatedly dividing by 10 to count digits.
+
+### Edge Cases:
+1. When the number is 0: Returns 1, as 0 is considered a single digit.
+2. Handling negative numbers: Converts negative numbers to their absolute value before counting digits, so -298 has 3 digits (same as 298).
+
