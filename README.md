@@ -185,3 +185,15 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### Edge Cases:
 1. **Single digit numbers**: Any single digit (0-9) is considered a palindrome.
 2. **Negative numbers**: Negative numbers are typically considered non-palindromes as the sign differs when reversed (e.g., -121 reversed reads as 121-).
+
+## 6. Reverse Integer
+
+### ReverseInteger.java
+- *Question:* Write a function to reverse the digits of an integer, handling negative numbers and overflow cases.
+- Reverses the number by extracting digits using modulo and division operations, then reconstructs the reversed number.
+- Preserves the sign of the original number and handles integer overflow by returning 0 if the result exceeds 32-bit limits.
+
+### Edge Cases:
+1. **Numbers with trailing zeros**: Trailing zeros become leading zeros after reversal and are dropped (e.g., 120 becomes 21).
+2. **Negative numbers**: The sign is preserved during reversal (e.g., -456 becomes -654).
+3. **Integer overflow**: If the reversed number exceeds 32-bit integer limits, returns 0 to prevent overflow.
