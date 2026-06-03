@@ -1,4 +1,3 @@
-
 // https://leetcode.com/problems/remove-element/description/
 import java.util.Arrays;
 public class RemoveElement {
