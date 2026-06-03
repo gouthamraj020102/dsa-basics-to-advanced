@@ -8,7 +8,7 @@ public class ReverseInteger {
     }
 
     public static int reverseInteger(int n) {
-        int rev = 0;
+        long rev = 0;
         int nCopy = n; // Keep a copy of the original number for sign handling
         n = Math.abs(n); // Work with the absolute value
 
@@ -22,6 +22,6 @@ public class ReverseInteger {
         if (rev < -limit || rev > limit) {
             return 0; // Return 0 for overflow
         }
-        return nCopy < 0 ? -rev : rev; // Return the reversed number with the correct sign
+        return (int)(nCopy < 0 ? -rev : rev); // Return the reversed number with the correct sign
     }
 }
