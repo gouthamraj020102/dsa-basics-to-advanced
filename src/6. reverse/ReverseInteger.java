@@ -4,6 +4,7 @@ public class ReverseInteger {
         System.out.println(reverseInteger(123)); // Output: 321
         System.out.println(reverseInteger(-456)); // Output: -654
         System.out.println(reverseInteger(120)); // Output: 21
+        System.out.println(reverseInteger(1534236469)); // Output: 0 (overflow)
     }
 
     public static int reverseInteger(int n) {
