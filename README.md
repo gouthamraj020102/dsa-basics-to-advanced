@@ -197,3 +197,61 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 1. **Numbers with trailing zeros**: Trailing zeros become leading zeros after reversal and are dropped (e.g., 120 becomes 21).
 2. **Negative numbers**: The sign is preserved during reversal (e.g., -456 becomes -654).
 3. **Integer overflow**: If the reversed number exceeds 32-bit integer limits, returns 0 to prevent overflow.
+
+## 7. Arrays
+
+### 1. Remove Duplicates
+
+- *Question:* Remove duplicates from a sorted array in-place and return the number of unique elements.
+- Implements a two-pointer approach to maintain unique elements at the beginning of the array while modifying it in-place.
+- Returns the count of unique elements, with all unique values positioned at the start of the array.
+
+#### Edge Cases:
+1. **Single element array**: Returns 1 as there are no duplicates.
+2. **Array with no duplicates**: Returns the array length.
+3. **Array with all duplicates**: Returns 1 as all elements are the same.
+
+### 2. Remove Element
+
+- *Question:* Remove all occurrences of a given value from an array in-place and return the number of remaining elements.
+- Uses a two-pointer technique to move non-matching elements to the beginning of the array while preserving their relative order.
+- Returns the count of elements that are not equal to the specified value.
+
+#### Edge Cases:
+1. **Value not present**: Returns the array length (all elements remain).
+2. **All elements match the value**: Returns 0 (all elements removed).
+3. **Single element array**: Returns 0 or 1 depending on whether the element matches the value.
+
+### 3. Reverse String
+
+- *Question:* Reverse a string represented as a character array in-place without using extra space.
+- Implements a two-pointer approach where pointers move towards the center, swapping characters at each step.
+- Modifies the array in-place by swapping elements from both ends until they meet in the middle.
+
+#### Edge Cases:
+1. **Single character string**: Returns the same character (no change needed).
+2. **Empty array**: No operation needed, returns immediately.
+3. **Two character string**: Simply swaps the two characters.
+
+### 4. Best Time to Buy and Sell Stock
+
+- *Question:* Given an array of stock prices, find the maximum profit you can make by buying once and selling once.
+- Implements a single-pass algorithm tracking the minimum price seen so far and calculating the maximum profit possible.
+- Time Complexity: O(n), Space Complexity: O(1)
+
+#### Algorithm Approach:
+1. Track the minimum price encountered so far.
+2. For each price, calculate the profit if sold at that price (current price - minimum price).
+3. Update the maximum profit if the current profit is greater.
+4. Return the maximum profit found.
+
+#### Example:
+- Input: `[3, 2, 6, 5, 0, 3]`
+- Output: `4` (Buy at 2, Sell at 6)
+- Input: `[7, 6, 4, 3, 1]`
+- Output: `0` (No profit possible, prices only decrease)
+
+#### Edge Cases:
+1. **Single element array**: Returns 0 (cannot make a transaction).
+2. **Decreasing prices**: Returns 0 (no profit opportunity).
+3. **Two element array**: Returns the maximum of 0 and (second - first).
