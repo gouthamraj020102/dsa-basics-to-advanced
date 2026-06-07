@@ -1,4 +1,31 @@
-// Question: Write a function to find and return the second largest element in an array
+/**
+Level 3 - Loops
+Problem: Find the second largest element in an array
+
+Question: Write a method to find and return the second largest element in an array.
+Tracks both the largest and second largest elements in a single pass.
+
+Algorithm Approach:
+- Track both largest and secondLargest values simultaneously
+- Initialize both with Integer.MIN_VALUE
+- Single pass through array:
+  - If element > largest: update secondLargest = largest, then largest = element
+  - Else if element > secondLargest AND element != largest: update secondLargest
+- Return secondLargest
+
+Example:
+- Input: [5, 2, 9, 1, 5, 6]
+- Output: 6 (largest=9, second=6)
+- Input: [4, 9, 0, 2, 8, 7, 1]
+- Output: 8 (largest=9, second=8)
+
+Edge Cases:
+- Array with less than 2 elements: Returns Integer.MIN_VALUE
+- All same elements: Returns Integer.MIN_VALUE (no distinct second largest)
+- Two elements: Returns the smaller one
+- Duplicates of largest: Still finds second largest correctly
+*/
+
 public class FindSecondLargest {
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 1, 5, 6};

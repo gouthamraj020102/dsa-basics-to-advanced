@@ -1,5 +1,32 @@
-import java.util.Arrays;
+/** https://leetcode.com/problems/merge-sorted-array/description/
+Problem: Merge two sorted arrays
 
+Question: Merge two sorted arrays into the first array in-place, where the first array has enough space to hold all elements
+
+Algorithm Approach:
+- Two approaches provided:
+  1. merge(): Copy nums1 to temp, merge forward from start
+  2. mergeV2(): Work backward from end (optimal, no extra space needed)
+- mergeV2 uses three pointers starting from end
+- Compare elements and place larger at end of nums1
+- Move pointer of processed element backward
+
+Example:
+- Input: nums1 = [1, 2, 3, 0, 0, 0], m = 3, nums2 = [2, 5, 6], n = 3
+- Output: nums1 = [1, 2, 2, 3, 5, 6]
+- Input: nums1 = [1], m = 1, nums2 = [], n = 0
+- Output: nums1 = [1]
+
+Edge Cases:
+- Empty nums2: nums1 remains unchanged
+- Empty nums1: All elements come from nums2
+- One element arrays: Simple comparison and placement
+- All elements in nums2 smaller: Moved to front
+
+Constraints: nums1 has length m+n with first m elements filled
+*/
+
+import java.util.Arrays;
 public class MergeSortedArray {
     public static void main(String[] args) {
         int[] nums1 = {1, 2, 3, 0, 0, 0};

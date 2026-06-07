@@ -1,12 +1,29 @@
-/* Prints an inverted right-angled triangle pattern of stars using nested loops. Expected Output (n=5):
+/**
+Problem: Print an inverted right-angled triangle of stars
 
+Question: Write a program to print an inverted right-angled triangle of stars where each row contains a decreasing number of stars
+Shows reverse iteration with nested loops creating an inverted pattern
+
+Algorithm Approach:
+- Two approaches provided:
+  1. printPattern(): Outer loop from n down to 1, inner loop from 0 to i
+  2. printPatternV2(): Outer loop from 0 to n-1, inner loop from 0 to (n-i-1)
+- Each row prints fewer stars than previous row
+- Inverse of Pattern2
+
+Example Output (n=5):
  * * * * *
  * * * *
  * * *
  * *
  *
 
+Edge Cases:
+- n=1: Single star
+- n=0: No output
+- Large n: Creates inverted triangular pattern
 */
+
 public class Pattern6 {
     public static void main(String[] args) {
         printPattern(5);
