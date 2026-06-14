@@ -63,6 +63,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 6. Move Zeroes
 - [MoveZero.java](src/7.%20arrays/6.%20moveZeroes/MoveZero.java): Move all zeroes to end while maintaining non-zero element order
 
+### 7. Max Consecutive Ones
+- [MaxConsecutiveOnes.java](src/7.%20arrays/7.%20maxConsecutive/MaxConsecutiveOnes.java): Find the maximum number of consecutive 1s in a binary array
+
 ## How to Use
 
 1. Open any Java file in your IDE
