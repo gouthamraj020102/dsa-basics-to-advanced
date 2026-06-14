@@ -1,4 +1,31 @@
-// Question: Write a function to find and return the largest element in an array
+/**
+Level 2 - Loops
+Problem: Find the largest element in an array
+
+Question: Write a method to find and return the largest element in an array
+Demonstrates multiple approaches to finding the maximum value with different initialization strategies
+
+Algorithm Approach:
+- Three approaches provided:
+  1. findLargestNumber(): Initialize with -1 (INCORRECT for all-negative arrays)
+  2. findLargestNumberV1(): Initialize with first element (CORRECT)
+  3. findLargestNumberV2(): Initialize with Integer.MIN_VALUE (OPTIMAL)
+- Compare each element with current maximum
+- Update maximum if current element is larger
+
+Example:
+- Input: [5, 0, 10, 8, 17, 1]
+- Output: 17
+- Input: [-5, -2, -10]
+- Output: -2 (using V1 or V2; V1 would fail)
+
+Edge Cases:
+- All negative numbers: Approach 1 fails, should use V1 or V2
+- Single element: Returns that element
+- Array with zero: Zero handled correctly
+- Duplicate largest values: Returns one of them
+*/
+
 public class FindLargestNumber {
     public static void main(String args[]) {
         int arr[] = { 5, 0, 10, 8, 17, 1 };
