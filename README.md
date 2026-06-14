@@ -69,6 +69,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 8. Missing Number
 - [MissingNumber.java](src/7.%20arrays/8.%20missingNumber/MissingNumber.java): Find the missing number in an array containing n distinct numbers from 0 to n
 
+### 9. Single Number
+- [SingleNumber.java](src/7.%20arrays/9.%20singleNumber/SingleNumber.java): Find the single number appearing once when all others appear twice using HashMap or XOR
+
 ## How to Use
 
 1. Open any Java file in your IDE
