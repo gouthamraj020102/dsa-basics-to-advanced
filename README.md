@@ -66,6 +66,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 7. Max Consecutive Ones
 - [MaxConsecutiveOnes.java](src/7.%20arrays/7.%20maxConsecutive/MaxConsecutiveOnes.java): Find the maximum number of consecutive 1s in a binary array
 
+### 8. Missing Number
+- [MissingNumber.java](src/7.%20arrays/8.%20missingNumber/MissingNumber.java): Find the missing number in an array containing n distinct numbers from 0 to n
+
 ## How to Use
 
 1. Open any Java file in your IDE
