@@ -72,6 +72,14 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 9. Single Number
 - [SingleNumber.java](src/7.%20arrays/9.%20singleNumber/SingleNumber.java): Find the single number appearing once when all others appear twice using HashMap or XOR
 
+## 8. recursion
+
+- [Recursion.java](src/8.%20recursion/Recursion.java): Basic recursion example - print numbers from n down to 1 using recursive function calls
+
+### 1. Fundamentals
+- [Print_1ToN_Numbers.java](src/8.%20recursion/1.%20fundamentals/Print_1ToN_Numbers.java): Print numbers from 1 to n using recursion with tail recursion pattern
+- [Print_Nto1_Numbers.java](src/8.%20recursion/1.%20fundamentals/Print_Nto1_Numbers.java): Print numbers from n down to 1 using recursion with immediate printing pattern
+
 ## How to Use
 
 1. Open any Java file in your IDE
