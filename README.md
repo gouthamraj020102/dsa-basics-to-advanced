@@ -80,6 +80,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 - [Print_1ToN_Numbers.java](src/8.%20recursion/1.%20fundamentals/Print_1ToN_Numbers.java): Print numbers from 1 to n using recursion with tail recursion pattern
 - [Print_Nto1_Numbers.java](src/8.%20recursion/1.%20fundamentals/Print_Nto1_Numbers.java): Print numbers from n down to 1 using recursion with immediate printing pattern
 
+### 2. First N Numbers
+- [First5Numbers.java](src/8.%20recursion/2.%20firstNNumbers/First5Numbers.java): Calculate the sum of first n numbers using recursion
+
 ## How to Use
 
 1. Open any Java file in your IDE
