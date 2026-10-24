@@ -1,4 +1,4 @@
-// This program prints numbers from n down to 1 using recursion.=
+// This program prints numbers from n down to 1 using recursion.
 public class Print_Nto1_Numbers {
     public static void main(String[] args) {
         int n = 5;

@@ -47,10 +47,13 @@ public class ReverseInteger {
             n /= 10;
         }
 
-        int limit = (int) Math.pow(2, 31);
-        if (rev < -limit || rev > limit) {
+        if (rev < Integer.MIN_VALUE || rev > Integer.MAX_VALUE) {
             return 0; // Return 0 for overflow
         }
+        // int limit = (int) Math.pow(2, 31);
+        // if (rev < -limit || rev > limit) {
+        //     return 0; // Return 0 for overflow
+        // }
         return (int)(nCopy < 0 ? -rev : rev); // Return the reversed number with the correct sign
     }
 }

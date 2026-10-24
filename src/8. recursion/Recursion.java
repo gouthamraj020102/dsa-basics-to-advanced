@@ -9,8 +9,7 @@ public class Recursion {
             return;
         }
         System.out.println(num);
-        num = num - 1;
-        func(num);
+        func(num - 1);
     }
 
 }
