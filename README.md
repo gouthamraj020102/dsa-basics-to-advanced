@@ -83,6 +83,10 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 2. First N Numbers
 - [First5Numbers.java](src/8.%20recursion/2.%20firstNNumbers/First5Numbers.java): Calculate the sum of first n numbers using recursion
 
+### 3. Recursive Array Sums
+- [SumOfAllTheNumbers.java](src/8.%20recursion/3.%20sumOfAllNumbers/SumOfAllTheNumbers.java): Calculate the sum of every element in an array using recursion
+- [SumOfOddNumbers.java](src/8.%20recursion/3.%20sumOfAllNumbers/SumOfOddNumbers.java): Calculate the sum of only the odd-valued elements in an array using recursion
+
 ## How to Use
 
 1. Open any Java file in your IDE
