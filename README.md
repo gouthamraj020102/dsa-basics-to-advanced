@@ -87,6 +87,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 - [SumOfAllTheNumbers.java](src/8.%20recursion/3.%20sumOfAllNumbers/SumOfAllTheNumbers.java): Calculate the sum of every element in an array using recursion
 - [SumOfOddNumbers.java](src/8.%20recursion/3.%20sumOfAllNumbers/SumOfOddNumbers.java): Calculate the sum of only the odd-valued elements in an array using recursion
 
+### 4. Factorial
+- [FactorialOfGivenNumber.java](src/8.%20recursion/4.%20factorialOfN/FactorialOfGivenNumber.java): Calculate the factorial of a number using recursion
+
 ## How to Use
 
 1. Open any Java file in your IDE
