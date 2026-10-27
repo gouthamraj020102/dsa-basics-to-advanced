@@ -93,6 +93,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 5. [Power of Two](https://leetcode.com/problems/power-of-two/)
 - [PowerOfTwo.java](src/8.%20recursion/5.%20powerOfTwo/PowerOfTwo.java): Check whether a number is a power of two using recursion
 
+### 6. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+- [FibonacciNumber.java](src/8.%20recursion/6.%20fibonacci/FibonacciNumber.java): Calculate the nth Fibonacci number using recursion
+
 ## How to Use
 
 1. Open any Java file in your IDE
