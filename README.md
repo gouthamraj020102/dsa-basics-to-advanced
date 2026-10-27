@@ -102,13 +102,13 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 - [LinearSearch.java](src/9.%20searching-and-sorting/1.%20linearsearch/LinearSearch.java): Search an array sequentially and return the target's index, or -1 if it is not found
 
 ### 2. [Binary Search](https://leetcode.com/problems/binary-search/)
-- [BinarySearch.java](src/9.%20searching-and-sorting/2.%20binarySearch/BinarySearch.java): Search a sorted array by repeatedly halving the search range; returns the target's index or -1 if not found
+- [BinarySearch.java](src/9.%20searching-and-sorting/2.%20binarysearch/BinarySearch.java): Search a sorted array by repeatedly halving the search range; returns the target's index or -1 if not found
 
 ### 3. Bubble Sort
-- [BubbleSort.java](src/9.%20searching-and-sorting/3.%20bubbleSort/BubbleSort.java): Sort an array in ascending order by repeatedly swapping adjacent out-of-order elements
+- [BubbleSort.java](src/9.%20searching-and-sorting/3.%20bubblesort/BubbleSort.java): Sort an array in ascending order by repeatedly swapping adjacent out-of-order elements
 
 ### 4. Selection Sort
-- [SelectionSort.java](src/9.%20searching-and-sorting/4.%20selectionSort/SelectionSort.java): Sort an array in ascending order by repeatedly selecting and placing the smallest remaining element
+- [SelectionSort.java](src/9.%20searching-and-sorting/4.%20selectionsort/SelectionSort.java): Sort an array in ascending order by repeatedly selecting and placing the smallest remaining element
 
 ### 5. Insertion Sort
 - [InsertionSort.java](src/9.%20searching-and-sorting/5.%20insertionsort/InsertionSort.java): Sort an array in ascending order by inserting each element into its correct position in the sorted portion
