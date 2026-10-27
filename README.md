@@ -96,6 +96,26 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 6. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [FibonacciNumber.java](src/8.%20recursion/6.%20fibonacci/FibonacciNumber.java): Calculate the nth Fibonacci number using recursion
 
+## 9. searching-and-sorting
+
+### 1. Linear Search
+- [LinearSearch.java](src/9.%20searching-and-sorting/1.%20linearsearch/LinearSearch.java): Search an array sequentially and return the target's index, or -1 if it is not found
+
+### 2. [Binary Search](https://leetcode.com/problems/binary-search/)
+- [BinarySearch.java](src/9.%20searching-and-sorting/2.%20binarysearch/BinarySearch.java): Search a sorted array by repeatedly halving the search range; returns the target's index or -1 if not found
+
+### 3. Bubble Sort
+- [BubbleSort.java](src/9.%20searching-and-sorting/3.%20bubblesort/BubbleSort.java): Sort an array in ascending order by repeatedly swapping adjacent out-of-order elements
+
+### 4. Selection Sort
+- [SelectionSort.java](src/9.%20searching-and-sorting/4.%20selectionsort/SelectionSort.java): Sort an array in ascending order by repeatedly selecting and placing the smallest remaining element
+
+### 5. Insertion Sort
+- [InsertionSort.java](src/9.%20searching-and-sorting/5.%20insertionsort/InsertionSort.java): Sort an array in ascending order by inserting each element into its correct position in the sorted portion
+
+### 6. [Merge Sort](https://leetcode.com/problems/sort-an-array/description/)
+- [MergeSort.java](src/9.%20searching-and-sorting/6.%20mergesort/MergeSort.java): Sort an array in ascending order by recursively dividing it into halves and merging the sorted halves
+
 ## How to Use
 
 1. Open any Java file in your IDE
