@@ -101,6 +101,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 1. Linear Search
 - [LinearSearch.java](src/9.%20searching-and-sorting/1.%20linearsearch/LinearSearch.java): Search an array sequentially and return the target's index, or -1 if it is not found
 
+### 2. [Binary Search](https://leetcode.com/problems/binary-search/)
+- [BinarySearch.java](src/9.%20searching-and-sorting/2.%20binarySearch/BinarySearch.java): Search a sorted array by repeatedly halving the search range; returns the target's index or -1 if not found
+
 ## How to Use
 
 1. Open any Java file in your IDE
