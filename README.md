@@ -96,6 +96,11 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 6. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [FibonacciNumber.java](src/8.%20recursion/6.%20fibonacci/FibonacciNumber.java): Calculate the nth Fibonacci number using recursion
 
+## 9. searching-and-sorting
+
+### 1. Linear Search
+- [LinearSearch.java](src/9.%20searching-and-sorting/1.%20linearsearch/LinearSearch.java): Search an array sequentially and return the target's index, or -1 if it is not found
+
 ## How to Use
 
 1. Open any Java file in your IDE
