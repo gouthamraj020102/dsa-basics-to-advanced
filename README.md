@@ -107,6 +107,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 3. Bubble Sort
 - [BubbleSort.java](src/9.%20searching-and-sorting/3.%20bubbleSort/BubbleSort.java): Sort an array in ascending order by repeatedly swapping adjacent out-of-order elements
 
+### 4. Selection Sort
+- [SelectionSort.java](src/9.%20searching-and-sorting/4.%20selectionSort/SelectionSort.java): Sort an array in ascending order by repeatedly selecting and placing the smallest remaining element
+
 ## How to Use
 
 1. Open any Java file in your IDE
