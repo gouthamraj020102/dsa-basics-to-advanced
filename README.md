@@ -45,32 +45,56 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 
 ## 7. arrays
 
-### 1. Remove Duplicates
+### 1. [Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 - [RemoveDuplicates.java](src/7.%20arrays/1.%20duplicate/RemoveDuplicates.java): Remove duplicates from sorted array in-place using two-pointer technique
 
-### 2. Remove Element
+### 2. [Remove Element](https://leetcode.com/problems/remove-element/description/)
 - [RemoveElement.java](src/7.%20arrays/2.%20remove/RemoveElement.java): Remove all occurrences of a value from array in-place
 
-### 3. Reverse String
+### 3. [Reverse String:](https://leetcode.com/problems/reverse-string/description/)
 - [ReverseString.java](src/7.%20arrays/3.%20reverse/ReverseString.java): Reverse a character array in-place using two-pointer approach
 
-### 4. Buy and Sell Stock
+### 4. [Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 - [BuyAndSell.java](src/7.%20arrays/4.%20buySellStock/BuyAndSell.java): Find maximum profit from single buy-sell transaction
 
-### 5. Merge Sorted Arrays
+### 5. [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/description/)
 - [MergeSortedArray.java](src/7.%20arrays/5.%20mergearray/MergeSortedArray.java): Merge two sorted arrays in-place with optimal backward approach
 
-### 6. Move Zeroes
+### 6. [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 - [MoveZero.java](src/7.%20arrays/6.%20moveZeroes/MoveZero.java): Move all zeroes to end while maintaining non-zero element order
 
-### 7. Max Consecutive Ones
+### 7. [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
 - [MaxConsecutiveOnes.java](src/7.%20arrays/7.%20maxConsecutive/MaxConsecutiveOnes.java): Find the maximum number of consecutive 1s in a binary array
 
-### 8. Missing Number
+### 8. [Missing Number](https://leetcode.com/problems/missing-number/)
 - [MissingNumber.java](src/7.%20arrays/8.%20missingNumber/MissingNumber.java): Find the missing number in an array containing n distinct numbers from 0 to n
 
-### 9. Single Number
+### 9. [Single Number](https://leetcode.com/problems/single-number/)
 - [SingleNumber.java](src/7.%20arrays/9.%20singleNumber/SingleNumber.java): Find the single number appearing once when all others appear twice using HashMap or XOR
+
+## 8. recursion
+
+[Recursion.java](src/8.%20recursion/Recursion.java): Basic recursion example - print numbers from n down to 1 using recursive function calls
+
+### 1. Fundamentals
+- [Print_1ToN_Numbers.java](src/8.%20recursion/1.%20fundamentals/Print_1ToN_Numbers.java): Print numbers from 1 to n using recursion with tail recursion pattern
+- [Print_Nto1_Numbers.java](src/8.%20recursion/1.%20fundamentals/Print_Nto1_Numbers.java): Print numbers from n down to 1 using recursion with immediate printing pattern
+
+### 2. First N Numbers
+- [First5Numbers.java](src/8.%20recursion/2.%20firstNNumbers/First5Numbers.java): Calculate the sum of first n numbers using recursion
+
+### 3. Recursive Array Sums
+- [SumOfAllTheNumbers.java](src/8.%20recursion/3.%20sumOfAllNumbers/SumOfAllTheNumbers.java): Calculate the sum of every element in an array using recursion
+- [SumOfOddNumbers.java](src/8.%20recursion/3.%20sumOfAllNumbers/SumOfOddNumbers.java): Calculate the sum of only the odd-valued elements in an array using recursion
+
+### 4. Factorial
+- [FactorialOfGivenNumber.java](src/8.%20recursion/4.%20factorialOfN/FactorialOfGivenNumber.java): Calculate the factorial of a number using recursion
+
+### 5. [Power of Two](https://leetcode.com/problems/power-of-two/)
+- [PowerOfTwo.java](src/8.%20recursion/5.%20powerOfTwo/PowerOfTwo.java): Check whether a number is a power of two using recursion
+
+### 6. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+- [FibonacciNumber.java](src/8.%20recursion/6.%20fibonacci/FibonacciNumber.java): Calculate the nth Fibonacci number using recursion
 
 ## How to Use
 
