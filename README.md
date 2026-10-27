@@ -113,6 +113,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 5. Insertion Sort
 - [InsertionSort.java](src/9.%20searching-and-sorting/5.%20insertionsort/InsertionSort.java): Sort an array in ascending order by inserting each element into its correct position in the sorted portion
 
+### 6. [Merge Sort](https://leetcode.com/problems/sort-an-array/description/)
+- [MergeSort.java](src/9.%20searching-and-sorting/6.%20mergesort/MergeSort.java): Sort an array in ascending order by recursively dividing it into halves and merging the sorted halves
+
 ## How to Use
 
 1. Open any Java file in your IDE
