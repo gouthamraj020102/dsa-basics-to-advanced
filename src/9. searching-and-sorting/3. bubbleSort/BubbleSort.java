@@ -1,11 +1,8 @@
-
-import java.util.Arrays;
-
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         bubbleSort(arr);
-        System.out.println("Sorted array: " + Arrays.toString(arr));
+        System.out.println("Sorted array: " + java.util.Arrays.toString(arr));
     }
 
     public static void bubbleSort(int[] arr) {

@@ -110,6 +110,9 @@ A comprehensive collection of Data Structures and Algorithms problems, starting 
 ### 4. Selection Sort
 - [SelectionSort.java](src/9.%20searching-and-sorting/4.%20selectionSort/SelectionSort.java): Sort an array in ascending order by repeatedly selecting and placing the smallest remaining element
 
+### 5. Insertion Sort
+- [InsertionSort.java](src/9.%20searching-and-sorting/5.%20insertionsort/InsertionSort.java): Sort an array in ascending order by inserting each element into its correct position in the sorted portion
+
 ## How to Use
 
 1. Open any Java file in your IDE
